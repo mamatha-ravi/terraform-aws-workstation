@@ -24,6 +24,9 @@ curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.35.2/2026-02-27/bin/linu
 chmod +x ./kubectl
 cp kubectl /usr/local/bin/kubectl
 
+
+
+
 # kubens (part of kubectx)
 curl -sLo /usr/local/bin/kubens https://raw.githubusercontent.com/ahmetb/kubectx/master/kubens
 chmod +x /usr/local/bin/kubens
